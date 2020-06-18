@@ -39,8 +39,7 @@ DESCRIBE PROCESS HERE
 ## Results
 
 The heatmap below gives a high level overview of average profitability by genre. Action, Adventure, Animation, Fantasy, and Sci-Fi appear to perform most consistently well over the last 10 years.
-![Genre Heatmap]
-(https://github.com/jmillerbrooks/mod_1_git_lab/blob/master/plot_images/heatmap_genre.png)
+![Genre Heatmap](https://github.com/jmillerbrooks/mod_1_git_lab/blob/master/plot_images/heatmap_genre.png)
 
 
 
