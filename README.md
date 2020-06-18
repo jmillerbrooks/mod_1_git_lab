@@ -13,12 +13,12 @@ We were tasked with analyzing the data available in the "Data" folder of this re
 
 ## Repository Contents
 
-- Original data are in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/Data">Data<\a> folder
-- Image files of our plots are in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/plot_images">plot_images<\a> folder
-- A copy of our cleaned data in .pkl format is in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/cleaned_data">cleaned_data<\a> folder, it was saved as pkl due to both size and formatting of one of the columns as list type which is not possible to preserve in csv format.
+- Original data are in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/Data">Data</a> folder
+- Image files of our plots are in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/plot_images">plot_images</a> folder
+- A copy of our cleaned data in .pkl format is in the <a href="https://github.com/jmillerbrooks/mod_1_git_lab/cleaned_data">cleaned_data</a> folder, it was saved as pkl due to both size and formatting of one of the columns as list type which is not possible to preserve in csv format.
 - Our main technical notebook summarizing our analysis is in the home directory of this repository
 - A copy of our slide deck in pdf format is in the main folder of this repository
-- Additional working notebooks used to produce our final product are in <a href="https://github.com/jmillerbrooks/mod_1_git_lab/additional_notebooks/">additional_notebooks<\a>
+- Additional working notebooks used to produce our final product are in <a href="https://github.com/jmillerbrooks/mod_1_git_lab/additional_notebooks/">additional_notebooks</a>
 
 ## Data
 
@@ -34,7 +34,7 @@ From the above datasets we first combined tn.movie_budgets and imdb.title.basics
 
 We first took a few steps to clean our data. Many entries present in the tn movie budgets set are not present in imdb, we used an inner join to drop these entries.  Additionally, we had missing values for runtime minutes, but did not use this variable in our analysis, so left these entries in place. You can find our cleaning work in the documents labeled 'Joined_EDA_with_ratios.ipynb' and 'data_prep' in <a href="https://github.com/jmillerbrooks/mod_1_git_lab/additional_notebooks/">this repo.</a> Our main changes were changing dollar values represented as strings to numeric, creating a profit column from budget and gross, creating an ROI column, and extracting year from release_date.
 
-We next took a look at distributions of genre, profit, and budget, and created visualizations to present our findings. You can find a summary of our results in the visualizations included in the Results section below.
+We next took a look at distributions of genre, profit, and budget, and created visualizations to present our findings. All of our visualizations are in the visualizations notebook in the main folder of this repository, and you can find a summary of our results in the visualizations included in the Results section below.
 
 ## Results
 
